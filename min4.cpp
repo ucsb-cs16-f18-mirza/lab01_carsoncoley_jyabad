@@ -6,6 +6,9 @@ int smallest_of_two(int num1, int num2);
 int smallest_of_three(int num1, int num2, int num3);
 int smallest_of_four(int num1, int num2, int num3, int num4);
 
+
+
+
 int main(int argc, char *argv[])
 {
         if (argc != 5)
