@@ -1,5 +1,6 @@
 #include <iostream>
 #include <cmath>
+#include <iomanip>
 using namespace std;
 
 int main()
@@ -29,7 +30,7 @@ int main()
                         cout << "The approximate value of pi using ";
                         cout << parameter +1;
                         cout << " terms is: ";
-			cout << output << endl;
+			cout << setprecision(3) << fixed << output << endl;
                 }
         }
         return 0;
