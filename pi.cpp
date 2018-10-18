@@ -24,19 +24,13 @@ int main()
                         }
                 }
                 output*=4.0;
-                if (parameter >=0 && output != 4)
+                if (parameter >=0)
                 {
                         cout << "The approximate value of pi using ";
                         cout << parameter +1;
                         cout << " terms is: ";
 			cout << output << endl;
                 }
-		else if (output = 4)
-		{
-			cout << "The approximate value of pi using ";
-			cout << parameter + 1;
-			cout << " terms is: 4.000" << endl;
-		}
         }
         return 0;
 }
