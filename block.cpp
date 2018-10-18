@@ -10,7 +10,6 @@ int main()
 		cout << "Enter number of rows and columns:\n";
 		cin >> rows >> columns;
 		int i = 0;
-		int j = 0;
 		while (i<rows)
         	{
                 	for (int j=0; j<columns; j++)
